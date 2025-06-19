@@ -21,16 +21,14 @@
 Follow these steps to get **MuseGen** running on your local machine:
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/EshwariPonnamanda/MuseGen.git
 cd MuseGen
 
-2.Download the JSON Library
+### 2.Download the JSON Library
 	•	Download json-20230227.jar
 	•	Place it in the root of your MuseGen project folder.
 
-3.Compile the Java Program
+### 3.Compile the Java Program
 javac -cp .:json-20230227.jar MuseGen.java
 java -cp .:json-20230227.jar MuseGen
 
