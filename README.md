@@ -21,22 +21,25 @@
 Follow these steps to get **MuseGen** running on your local machine:
 
 ### 1. Clone the Repository
+```bash
 git clone https://github.com/EshwariPonnamanda/MuseGen.git
 cd MuseGen
-
+```
 ### 2.Download the JSON Library
 	•	Download json-20230227.jar
 	•	Place it in the root of your MuseGen project folder.
 
 ### 3.Compile the Java Program
+```bash
 javac -cp .:json-20230227.jar MuseGen.java
 java -cp .:json-20230227.jar MuseGen
 
 Note: Use ; instead of : on Windows.
+```
 
 
 
-🤝 Contributing
+## 🤝 Contributing
 Want to expand MuseGen with features like:
 	•	🧠 Quotes, Lyrics, and Ideas
 	•	🎵 AI-generated suggestions
@@ -45,10 +48,11 @@ Want to expand MuseGen with features like:
 
 Feel free to fork the project, open issues, or submit pull requests. All contributions are welcome!
 
-📄 License
-MIT License © 2025 @EshwariPonnamanda
+## 📄 License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+© 2025 [Eshwari Ponnamanda](https://github.com/EshwariPonnamanda)
 
-💫 Inspiration
+## 💫 Inspiration
 This project is inspired by the idea of creative prompts for artists, writers, and poets who want instant inspiration on the go.
 
 "MuseGen" is your AI-friendly muse, one poem at a time.
